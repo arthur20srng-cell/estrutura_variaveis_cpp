@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    int idade;
+    float altura;
+    
+    cout << "Digite a sua idade e a sua altura: " << endl;
+    cin >> idade >> altura;
+    
+  
+    
+    cout << "A sua altura e " << altura << "e sua idade e: " << idade;
+
+    return 0;
+}
