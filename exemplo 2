@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int idade;
+    char carteira;
+    
+    cout << "Digite sua idade e se tem carteira s/n: " << endl;
+    cin >> idade >> carteira;
+    
+    if (idade >= 18 && carteira == 's') {
+        cout << "Pode dirigir";
+    } else {
+        cout << "Nao pode dirigir";
+    }
+    return 0;
+}
